@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto' sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top,#6499E9 0% , #9EDDFF 100%);
+
+}
+
+.keybox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.keybox h1{
+    /* border: 2px solid red; */
+    font-size:2.5rem;
+    text-align: center;
+    padding: 12px 60px;
+    color: #071952;
+    text-shadow: 1px 1px #070707 ;
+    box-shadow:  0 1px 5px 3px #04364A;
+}
+
+     /* for dynamic div */
+
+
+.keybox h1 span{
+        color: #F94A29;
+     }
+
+.keybox .key{
+    padding: 12px 110px;
+
+}
+
+.code{
+    margin-top: 20px;
+    padding: 2rem;
+    font-weight: 500;
+    font-size: 4rem;
+    color: #F94A29;
+    text-shadow: 1px 1px #070707;;
+    box-shadow: 0 1px 5px 3px #04364A;
+}
+
+@media screen and (max-width: 425px){
+    .keybox .key{
+        padding: 12px 24px;
+    }
+
+    .keyBox h1 {
+        font-size: 1.5rem;
+        padding: 12px 24px;
+}
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .keyBox .key {
+        padding: 12px 24px;
+    }
+    .keyBox h1 {
+        font-size: 2rem;
+    }
+    
+}
+
+
+
